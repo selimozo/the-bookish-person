@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size:18px;
+  }
+  #main {
+    background-color:lightgray;
+  }
+  #title {
+    text-align:center;
+    font-size:32px;
+    padding:15px 0;
+  }
+  #alt-title {
+    text-align:center;
+    padding:5px 0;
+  }
+  #img-div {
+    background-color:white;
+  }
+  img{
+    display:block;
+  }
+  #image {
+    max-width:100%;
+    height:auto;
+    margin:auto;
+    padding:30px;
+  }
+  #img-caption {
+    text-align:center;padding-bottom:15px;
+  }
+  #headline {
+    padding-top:30px;
+    text-align:center;
+  }
+  #tribute-info {
+  margin:30px 70px;
+  }
+  ul li {
+  margin:10px;
+  }
+  
+  #quote {
+    margin: 20px 0;
+    font-style:italic;
+  }
+  #altbottom {
+  padding: 35px 0;
+  }

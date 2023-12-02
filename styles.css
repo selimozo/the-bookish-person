@@ -3,6 +3,7 @@
     padding:0;
     box-sizing:border-box;
     font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   #main {
     background-color:lightgray;
@@ -16,11 +17,25 @@
     text-align:center;
     padding:5px 0;
   }
+  #container {
+    background-color: lightgray;
+    transition: all 0.5s ease-out;
+
+  }
+  #container:hover {
+    background-color: lightgreen;
+    text-shadow: 2px 2px 4px lightpink;
+    color: darkmagenta;
+  }
   #img-div {
     background-color:white;
   }
   img{
     display:block;
+    transition: all 0.8s ease-out;
+  }
+  #image:hover{
+    scale:1.03;
   }
   #image {
     max-width:100%;
@@ -38,6 +53,7 @@
   #tribute-info {
   margin:30px 70px;
   }
+  
   ul li {
   margin:10px;
   }
@@ -48,4 +64,10 @@
   }
   #altbottom {
   padding: 35px 0;
+  }
+  #container2{
+    transition: all 0.5s ease-out;
+  }
+  #container2:hover{
+    color: darkgreen;
   }
